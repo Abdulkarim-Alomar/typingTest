@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="typingTest.css">
+</head>
+<body>
+    <div class="game">
+        <div class="heading">
+            Typing Test Game
+        </div>
+        <div class="container">
+            <div class="message">
+                you are playing
+                <select id="lvl">
+                    <option value="Easy">Easy</option>
+                    <option value="Normal">Normal</option>
+                    <option value="Hard">Hard</option>
+                </select>
+                Level & You Have <span class="seconds"></span> Seconds To Type The Word
+            </div>
+            <div class="start">Start Playing</div>
+            <div class="the-word"></div>
+            <input type="text" class="input">
+            <div class="upcoming-words">Words Will Show Here</div>
+            <div class="control">
+                <div class="time">Time Left: <span></span> Seconds</div>
+                <div class="score">Score: <span class="get">0</span> From <span class="total"></span></div>
+            </div>
+            <div class="finish"></div>
+        </div>
+    </div>
+    <script src="typingTest.js"></script>
+</body>
+</html>
